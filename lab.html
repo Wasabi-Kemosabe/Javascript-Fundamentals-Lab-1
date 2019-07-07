@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Fundamentals Lab 1</title>
+</head>
+
+<body>
+    <h1>Javascript Fundamentals Lab 1</h1>
+    <script>
+        const scores = [23, 48, 13, 64, 52, 66];
+        let total = 0;
+        for (let index = 0; index < scores.length; index++) {
+            total += scores[index];
+        }
+        const avgScore = total / scores.length;
+        console.log(Math.floor(avgScore));
+    </script>
+</body>
+
+</html>
